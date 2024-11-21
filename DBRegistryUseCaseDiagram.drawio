@@ -4,35 +4,129 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        
+        <!-- Actors -->
+        <mxCell id="actor-registrar" value="Registrar" style="shape=ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="100" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="actor-parent" value="Parent" style="shape=ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="220" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="actor-witness" value="Witness" style="shape=ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="340" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="actor-admin" value="Administrator" style="shape=ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="460" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="actor-gov-official" value="Government Official" style="shape=ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="580" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="actor-public-user" value="Public User" style="shape=ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="700" width="120" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- Use Cases -->
+        <mxCell id="usecase-register-births" value="Register Births" style="shape=ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="100" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="usecase-register-deaths" value="Register Deaths" style="shape=ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="160" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="usecase-update-birth" value="Update Birth Record" style="shape=ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="220" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="usecase-update-death" value="Update Death Record" style="shape=ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="280" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="usecase-view-reports" value="View Reports" style="shape=ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="340" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="usecase-submit-birth-info" value="Submit Birth Information" style="shape=ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="400" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="usecase-view-registered-births" value="View Registered Births" style="shape=ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="460" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="usecase-provide-event-info" value="Provide Event Information" style="shape=ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="520" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="usecase-confirm-info" value="Confirm Information" style="shape=ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="580" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="usecase-manage-users" value="Manage Users" style="shape=ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="640" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="usecase-update-system-config" value="Update System Configuration" style="shape=ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="700" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="usecase-generate-system-logs" value="Generate System Logs" style="shape=ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="760" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="usecase-analyze-reports" value="Analyze Reports" style="shape=ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="820" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="usecase-view-registry-stats" value="View Registry Statistics" style="shape=ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="880" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="usecase-search-public-records" value="Search Public Records" style="shape=ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="940" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="usecase-request-certificates" value="Request Birth/Death Certificates" style="shape=ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="1000" width="120" height="40" as="geometry" />
+        </mxCell>
+
+        <!-- Connectors -->
+        <mxCell id="connector1" edge="1" parent="1" source="actor-registrar" target="usecase-register-births">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="connector2" edge="1" parent="1" source="actor-registrar" target="usecase-register-deaths">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="connector3" edge="1" parent="1" source="actor-registrar" target="usecase-update-birth">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="connector4" edge="1" parent="1" source="actor-registrar" target="usecase-update-death">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="connector5" edge="1" parent="1" source="actor-registrar" target="usecase-view-reports">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="connector6" edge="1" parent="1" source="actor-parent" target="usecase-submit-birth-info">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="connector7" edge="1" parent="1" source="actor-parent" target="usecase-view-registered-births">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="connector8" edge="1" parent="1" source="actor-witness" target="usecase-provide-event-info">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="connector9" edge="1" parent="1" source="actor-witness" target="usecase-confirm-info">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="connector10" edge="1" parent="1" source="actor-admin" target="usecase-manage-users">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="connector11" edge="1" parent="1" source="actor-admin" target="usecase-update-system-config">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="connector12" edge="1" parent="1" source="actor-admin" target="usecase-generate-system-logs">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="connector13" edge="1" parent="1" source="actor-gov-official" target="usecase-analyze-reports">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="connector14" edge="1" parent="1" source="actor-gov-official" target="usecase-view-registry-stats">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="connector15" edge="1" parent="1" source="actor-public-user" target="usecase-search-public-records">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="connector16" edge="1" parent="1" source="actor-public-user" target="usecase-request-certificates">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        
       </root>
-    </mxGraphModel>
-  </diagram>
-  <diagram name="Use Case Diagram" id="useCaseDiagram">
-    <mxGraphModel>
-      <root>
-        <mxCell id="2" parent="1" value="Registrar" />
-        <mxCell id="3" parent="1" value="Register Births" />
-        <mxCell id="4" parent="1" value="Register Deaths" />
-        <mxCell id="5" parent="1" value="Update Birth Record" />
-        <mxCell id="6" parent="1" value="Update Death Record" />
-        <mxCell id="7" parent="1" value="View Reports" />
-        <mxCell id="8" parent="1" value="Parent" />
-        <mxCell id="9" parent="1" value="Submit Birth Information" />
-        <mxCell id="10" parent="1" value="View Registered Births" />
-        <mxCell id="11" parent="1" value="Witness" />
-        <mxCell id="12" parent="1" value="Provide Event Information (for Birth/Death)" />
-        <mxCell id="13" parent="1" value="Confirm Information" />
-        <mxCell id="14" parent="1" value="Administrator" />
-        <mxCell id="15" parent="1" value="Manage Users (Registrars, Parents, Witnesses)" />
-        <mxCell id="16" parent="1" value="Update System Configuration" />
-        <mxCell id="17" parent="1" value="Generate System Logs" />
-        <mxCell id="18" parent="1" value="Government Official" />
-        <mxCell id="19" parent="1" value="Analyze Reports" />
-        <mxCell id="20" parent="1" value="View Registry Statistics" />
-        <mxCell id="21" parent="1" value="Public User" />
-        <mxCell id="22" parent="1" value="Search Public Records" />
-        <mxCell id="23" parent="1" value="Request Birth/Death Certificates" />
-      </root>
-    </mxGraphModel>
-  </diagram>
+      </mxGraphModel>
+    </diagram>
+  </mxfile>
 </mxfile>
