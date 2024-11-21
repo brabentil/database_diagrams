@@ -7,32 +7,32 @@
       </root>
     </mxGraphModel>
   </diagram>
+  <diagram name="Use Case Diagram" id="useCaseDiagram">
+    <mxGraphModel>
+      <root>
+        <mxCell id="2" parent="1" value="Registrar" />
+        <mxCell id="3" parent="1" value="Register Births" />
+        <mxCell id="4" parent="1" value="Register Deaths" />
+        <mxCell id="5" parent="1" value="Update Birth Record" />
+        <mxCell id="6" parent="1" value="Update Death Record" />
+        <mxCell id="7" parent="1" value="View Reports" />
+        <mxCell id="8" parent="1" value="Parent" />
+        <mxCell id="9" parent="1" value="Submit Birth Information" />
+        <mxCell id="10" parent="1" value="View Registered Births" />
+        <mxCell id="11" parent="1" value="Witness" />
+        <mxCell id="12" parent="1" value="Provide Event Information (for Birth/Death)" />
+        <mxCell id="13" parent="1" value="Confirm Information" />
+        <mxCell id="14" parent="1" value="Administrator" />
+        <mxCell id="15" parent="1" value="Manage Users (Registrars, Parents, Witnesses)" />
+        <mxCell id="16" parent="1" value="Update System Configuration" />
+        <mxCell id="17" parent="1" value="Generate System Logs" />
+        <mxCell id="18" parent="1" value="Government Official" />
+        <mxCell id="19" parent="1" value="Analyze Reports" />
+        <mxCell id="20" parent="1" value="View Registry Statistics" />
+        <mxCell id="21" parent="1" value="Public User" />
+        <mxCell id="22" parent="1" value="Search Public Records" />
+        <mxCell id="23" parent="1" value="Request Birth/Death Certificates" />
+      </root>
+    </mxGraphModel>
+  </diagram>
 </mxfile>
-<diagram name="Use Case Diagram" id="useCaseDiagram">
-  <mxGraphModel>
-    <root>
-      <mxCell id="2" parent="1" value="Registrar" />
-      <mxCell id="3" parent="1" value="Register Births" />
-      <mxCell id="4" parent="1" value="Register Deaths" />
-      <mxCell id="5" parent="1" value="Update Birth Record" />
-      <mxCell id="6" parent="1" value="Update Death Record" />
-      <mxCell id="7" parent="1" value="View Reports" />
-      <mxCell id="8" parent="1" value="Parent" />
-      <mxCell id="9" parent="1" value="Submit Birth Information" />
-      <mxCell id="10" parent="1" value="View Registered Births" />
-      <mxCell id="11" parent="1" value="Witness" />
-      <mxCell id="12" parent="1" value="Provide Event Information (for Birth/Death)" />
-      <mxCell id="13" parent="1" value="Confirm Information" />
-      <mxCell id="14" parent="1" value="Administrator" />
-      <mxCell id="15" parent="1" value="Manage Users (Registrars, Parents, Witnesses)" />
-      <mxCell id="16" parent="1" value="Update System Configuration" />
-      <mxCell id="17" parent="1" value="Generate System Logs" />
-      <mxCell id="18" parent="1" value="Government Official" />
-      <mxCell id="19" parent="1" value="Analyze Reports" />
-      <mxCell id="20" parent="1" value="View Registry Statistics" />
-      <mxCell id="21" parent="1" value="Public User" />
-      <mxCell id="22" parent="1" value="Search Public Records" />
-      <mxCell id="23" parent="1" value="Request Birth/Death Certificates" />
-    </root>
-  </mxGraphModel>
-</diagram>
