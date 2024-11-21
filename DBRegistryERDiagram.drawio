@@ -1,4 +1,206 @@
+<!-- 
+  This XML file represents a diagram created with the app.diagrams.net tool.
+  The diagram contains multiple tables, each represented by an <mxCell> element with specific attributes.
+  
+  Attributes:
+  - id: Unique identifier for each cell.
+  - value: The label or content of the cell.
+  - style: Defines the appearance and behavior of the cell.
+  - parent: The parent cell's ID, indicating the hierarchical structure.
+  - vertex: Indicates if the cell is a vertex (1) or not (0).
+  - as: Specifies the role of the <mxGeometry> element within the cell.
+
+  The <mxGraphModel> element contains the overall settings for the diagram, such as grid size, page dimensions, and other visual properties.
+
+  The <root> element contains all the <mxCell> elements, representing the different components of the diagram.
+
+  Each <mxCell> element may contain nested <mxCell> elements, representing the hierarchical structure of the diagram.
+
+  The <mxGeometry> element within each <mxCell> defines the position and size of the cell, with attributes such as x, y, width, and height.
+
+  The <mxRectangle> element within <mxGeometry> provides alternate bounds for the cell, used for resizing and layout purposes.
+-->
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="24.8.6">
+  <!-- Entity: Locations -->
+  <mxCell id="locations" value="Locations" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" parent="1" vertex="1">
+    <mxGeometry x="50" y="50" width="250" height="130" as="geometry" />
+  </mxCell>
+  <mxCell id="location_id" value="location_id" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;" parent="locations" vertex="1">
+    <mxGeometry width="250" height="30" as="geometry" />
+  </mxCell>
+  <mxCell id="region" value="region" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;" parent="locations" vertex="1">
+    <mxGeometry y="30" width="250" height="30" as="geometry" />
+  </mxCell>
+  <mxCell id="district" value="district" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;" parent="locations" vertex="1">
+    <mxGeometry y="60" width="250" height="30" as="geometry" />
+  </mxCell>
+  <mxCell id="town" value="town" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;" parent="locations" vertex="1">
+    <mxGeometry y="90" width="250" height="30" as="geometry" />
+  </mxCell>
+
+  <!-- Entity: Births -->
+  <mxCell id="births" value="Births" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" parent="1" vertex="1">
+    <mxGeometry x="350" y="50" width="250" height="300" as="geometry" />
+  </mxCell>
+  <mxCell id="birth_id" value="birth_id" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;" parent="births" vertex="1">
+    <mxGeometry width="250" height="30" as="geometry" />
+  </mxCell>
+  <mxCell id="first_name" value="first_name" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;" parent="births" vertex="1">
+    <mxGeometry y="30" width="250" height="30" as="geometry" />
+  </mxCell>
+  <mxCell id="last_name" value="last_name" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;" parent="births" vertex="1">
+    <mxGeometry y="60" width="250" height="30" as="geometry" />
+  </mxCell>
+  <mxCell id="gender" value="gender" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;" parent="births" vertex="1">
+    <mxGeometry y="90" width="250" height="30" as="geometry" />
+  </mxCell>
+  <mxCell id="date_of_birth" value="date_of_birth" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;" parent="births" vertex="1">
+    <mxGeometry y="120" width="250" height="30" as="geometry" />
+  </mxCell>
+  <mxCell id="place_of_birth" value="place_of_birth" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;" parent="births" vertex="1">
+    <mxGeometry y="150" width="250" height="30" as="geometry" />
+  </mxCell>
+  <mxCell id="registration_date" value="registration_date" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;" parent="births" vertex="1">
+    <mxGeometry y="180" width="250" height="30" as="geometry" />
+  </mxCell>
+  <mxCell id="location_id_fk" value="location_id (FK)" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;" parent="births" vertex="1">
+    <mxGeometry y="210" width="250" height="30" as="geometry" />
+  </mxCell>
+  <mxCell id="mother_id_fk" value="mother_id (FK)" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;" parent="births" vertex="1">
+    <mxGeometry y="240" width="250" height="30" as="geometry" />
+  </mxCell>
+  <mxCell id="father_id_fk" value="father_id (FK)" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;" parent="births" vertex="1">
+    <mxGeometry y="270" width="250" height="30" as="geometry" />
+  </mxCell>
+  <mxCell id="registrar_id_fk" value="registrar_id (FK)" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;" parent="births" vertex="1">
+    <mxGeometry y="300" width="250" height="30" as="geometry" />
+  </mxCell>
+
+  <!-- Entity: Deaths -->
+  <mxCell id="deaths" value="Deaths" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" parent="1" vertex="1">
+    <mxGeometry x="650" y="50" width="250" height="300" as="geometry" />
+  </mxCell>
+  <mxCell id="death_id" value="death_id" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;" parent="deaths" vertex="1">
+    <mxGeometry width="250" height="30" as="geometry" />
+  </mxCell>
+  <mxCell id="deceased_first_name" value="deceased_first_name" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;" parent="deaths" vertex="1">
+    <mxGeometry y="30" width="250" height="30" as="geometry" />
+  </mxCell>
+  <mxCell id="deceased_last_name" value="deceased_last_name" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;" parent="deaths" vertex="1">
+    <mxGeometry y="60" width="250" height="30" as="geometry" />
+  </mxCell>
+  <mxCell id="gender_death" value="gender" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;" parent="deaths" vertex="1">
+    <mxGeometry y="90" width="250" height="30" as="geometry" />
+  </mxCell>
+  <mxCell id="date_of_birth_death" value="date_of_birth" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;" parent="deaths" vertex="1">
+    <mxGeometry y="120" width="250" height="30" as="geometry" />
+  </mxCell>
+  <mxCell id="date_of_death" value="date_of_death" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;" parent="deaths" vertex="1">
+    <mxGeometry y="150" width="250" height="30" as="geometry" />
+  </mxCell>
+  <mxCell id="location_id_fk_death" value="location_id (FK)" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;" parent="deaths" vertex="1">
+    <mxGeometry y="180" width="250" height="30" as="geometry" />
+  </mxCell>
+  <mxCell id="cause_id_fk" value="cause_id (FK)" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;" parent="deaths" vertex="1">
+    <mxGeometry y="210" width="250" height="30" as="geometry" />
+  </mxCell>
+  <mxCell id="registrar_id_fk_death" value="registrar_id (FK)" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;" parent="deaths" vertex="1">
+    <mxGeometry y="240" width="250" height="30" as="geometry" />
+  </mxCell>
+  <mxCell id="marital_status_id_fk_death" value="marital_status_id (FK)" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;" parent="deaths" vertex="1">
+    <mxGeometry y="270" width="250" height="30" as="geometry" />
+  </mxCell>
+
+  <!-- Entity: Parents -->
+  <mxCell id="parents" value="Parents" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" parent="1" vertex="1">
+    <mxGeometry x="950" y="50" width="250" height="200" as="geometry" />
+  </mxCell>
+  <mxCell id="parent_id" value="parent_id" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;" parent="parents" vertex="1">
+    <mxGeometry width="250" height="30" as="geometry" />
+  </mxCell>
+  <mxCell id="first_name_parent" value="first_name" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;" parent="parents" vertex="1">
+    <mxGeometry y="30" width="250" height="30" as="geometry" />
+  </mxCell>
+  <mxCell id="last_name_parent" value="last_name" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;" parent="parents" vertex="1">
+    <mxGeometry y="60" width="250" height="30" as="geometry" />
+  </mxCell>
+  <mxCell id="gender_parent" value="gender" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;" parent="parents" vertex="1">
+    <mxGeometry y="90" width="250" height="30" as="geometry" />
+  </mxCell>
+  <mxCell id="contact_info" value="contact_info" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;" parent="parents" vertex="1">
+    <mxGeometry y="120" width="250" height="30" as="geometry" />
+  </mxCell>
+  <mxCell id="marital_status_id_fk_parent" value="marital_status_id (FK)" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;" parent="parents" vertex="1">
+    <mxGeometry y="150" width="250" height="30" as="geometry" />
+  </mxCell>
+  <mxCell id="location_id_fk_parent" value="location_id (FK)" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;" parent="parents" vertex="1">
+    <mxGeometry y="180" width="250" height="30" as="geometry" />
+  </mxCell>
+
+  <!-- Entity: Registrars -->
+  <mxCell id="registrars" value="Registrars" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" parent="1" vertex="1">
+    <mxGeometry x="1250" y="50" width="250" height="160" as="geometry" />
+  </mxCell>
+  <mxCell id="registrar_id" value="registrar_id" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;" parent="registrars" vertex="1">
+    <mxGeometry width="250" height="30" as="geometry" />
+  </mxCell>
+  <mxCell id="name" value="name" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;" parent="registrars" vertex="1">
+    <mxGeometry y="30" width="250" height="30" as="geometry" />
+  </mxCell>
+  <mxCell id="position" value="position" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;" parent="registrars" vertex="1">
+    <mxGeometry y="60" width="250" height="30" as="geometry" />
+  </mxCell>
+  <mxCell id="office_location_id_fk" value="office_location_id (FK)" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;" parent="registrars" vertex="1">
+    <mxGeometry y="90" width="250" height="30" as="geometry" />
+  </mxCell>
+
+  <!-- Entity: Witnesses -->
+  <mxCell id="witnesses" value="Witnesses" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" parent="1" vertex="1">
+    <mxGeometry x="50" y="400" width="250" height="160" as="geometry" />
+  </mxCell>
+  <mxCell id="witness_id" value="witness_id" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;" parent="witnesses" vertex="1">
+    <mxGeometry width="250" height="30" as="geometry" />
+  </mxCell>
+  <mxCell id="first_name_witness" value="first_name" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;" parent="witnesses" vertex="1">
+    <mxGeometry y="30" width="250" height="30" as="geometry" />
+  </mxCell>
+  <mxCell id="last_name_witness" value="last_name" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;" parent="witnesses" vertex="1">
+    <mxGeometry y="60" width="250" height="30" as="geometry" />
+  </mxCell>
+  <mxCell id="contact_info_witness" value="contact_info" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;" parent="witnesses" vertex="1">
+    <mxGeometry y="90" width="250" height="30" as="geometry" />
+  </mxCell>
+  <mxCell id="relation_to_event" value="relation_to_event" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;" parent="witnesses" vertex="1">
+    <mxGeometry y="120" width="250" height="30" as="geometry" />
+  </mxCell>
+  <mxCell id="location_id_fk_witness" value="location_id (FK)" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;" parent="witnesses" vertex="1">
+    <mxGeometry y="150" width="250" height="30" as="geometry" />
+  </mxCell>
+
+  <!-- Entity: Causes_of_Death -->
+  <mxCell id="causes_of_death" value="Causes_of_Death" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" parent="1" vertex="1">
+    <mxGeometry x="350" y="400" width="250" height="130" as="geometry" />
+  </mxCell>
+  <mxCell id="cause_id" value="cause_id" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;" parent="causes_of_death" vertex="1">
+    <mxGeometry width="250" height="30" as="geometry" />
+  </mxCell>
+  <mxCell id="cause_name" value="cause_name" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;" parent="causes_of_death" vertex="1">
+    <mxGeometry y="30" width="250" height="30" as="geometry" />
+  </mxCell>
+  <mxCell id="cause_details" value="cause_details" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;" parent="causes_of_death" vertex="1">
+    <mxGeometry y="60" width="250" height="30" as="geometry" />
+  </mxCell>
+
+  <!-- Entity: Marital_Status -->
+  <mxCell id="marital_status" value="Marital_Status" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" parent="1" vertex="1">
+    <mxGeometry x="650" y="400" width="250" height="100" as="geometry" />
+  </mxCell>
+  <mxCell id="marital_status_id" value="marital_status_id" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;" parent="marital_status" vertex="1">
+    <mxGeometry width="250" height="30" as="geometry" />
+  </mxCell>
+  <mxCell id="status" value="status" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;" parent="marital_status" vertex="1">
+    <mxGeometry y="30" width="250" height="30" as="geometry" />
+  </mxCell>
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
     <mxGraphModel dx="1290" dy="569" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
