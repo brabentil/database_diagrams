@@ -74,5 +74,6 @@ In addition to serving as a storage solution for data, our database plays a cruc
 - **Report Generation**: Enabling the creation of detailed, accurate, and customizable reports.
 - **Analytics and Statistics**: Providing insights by analyzing data trends and patterns.
 - **Reducing Redundancy**: Streamlining data structures and ensuring efficient storage to minimize duplicate information.
+
 These should all be highlighted in our paper
 
