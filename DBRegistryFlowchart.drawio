@@ -1,5 +1,5 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="24.8.8">
-  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Register Death">
     <mxGraphModel dx="1290" dy="569" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <!-- Root Cells -->
@@ -10,20 +10,20 @@
         <mxCell id="2" value="Start" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="100" y="50" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="3" value="Submit Information" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="100" y="120" width="120" height="60" as="geometry" />
+        <mxCell id="3" value="Submit Death Info" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="120" width="140" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="4" value="Verify Information" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="100" y="220" width="120" height="60" as="geometry" />
+        <mxCell id="4" value="Verify Cause of Death" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="220" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="5" value="Is Information Complete?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="100" y="320" width="120" height="60" as="geometry" />
+        <mxCell id="5" value="Is Info Complete?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="320" width="140" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="6" value="Register Record" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="300" y="320" width="120" height="60" as="geometry" />
+        <mxCell id="6" value="Register Death Record" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="320" width="180" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="7" value="Notify User to Correct Info" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="100" y="420" width="120" height="60" as="geometry" />
+        <mxCell id="7" value="Notify User to Complete Info" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="420" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="8" value="End" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="300" y="420" width="80" height="40" as="geometry" />
@@ -41,7 +41,6 @@
         </mxCell>
         <mxCell id="12" edge="1" source="5" target="6" parent="1">
           <mxGeometry relative="1" as="geometry" />
-          <mxGeometry x="0.5" as="geometry" />
         </mxCell>
         <mxCell id="13" edge="1" source="5" target="7" parent="1">
           <mxGeometry relative="1" as="geometry" />
