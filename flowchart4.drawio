@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="24.8.8">
   <diagram id="2" name="Search Record">
-    <mxGraphModel dx="2117" dy="1738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2547" dy="1928" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -43,8 +43,11 @@
         <mxCell id="14" parent="1" source="5" target="7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="k1Cs2hY3cGp2T7MvSB9V-14" value="&lt;font style=&quot;font-size: 36px;&quot;&gt;Flowchart For searching for Records&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="k1Cs2hY3cGp2T7MvSB9V-14" value="&lt;font style=&quot;font-size: 36px;&quot;&gt;Flowchart for Searching for a Record&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="-90" y="-40" width="610" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="67MsffUGWXL1VudbXrLv-14" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="-180" y="-80" width="790" height="650" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
